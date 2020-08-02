@@ -17,3 +17,5 @@ The original script would perform the analysis in 1.73 seconds and 1.43 seconds 
 Clearly the refactored script is significantly faster, anywhere from 4 to 7 times faster. So when running this program to examine stocks over more years and thousands of more stocks it can make a significant difference in the time of analysis. Using the refactored data would save Steve a lot of time. The only disadvantage I can see is that the script is a bit more complicated to write than the original script. So it can take a little bit more time to write the initial script.
 
 ### 2. How do these pros and cons apply to refactoring the original VBA script?
+
+For a small data set like the one for 2017 and 2018, it would be more efficient use of time to use the original VBA script. Spending a significant amount of time to save a few seconds in an analysis isn't an efficient use of time. Unfortunately if we wanted to use it for future data sets that are larger we would then have to make the necessary refactoring changes.
